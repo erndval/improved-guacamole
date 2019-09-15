@@ -2,11 +2,11 @@ import React from 'react';
 
 function Navigation(props){
   return(
-    <div class="nav">
-    Home
-    Stories
-    Characters
+    <div role="list" class="ui list">
+      <div role="listitem" class="item">Home</div>
+      <div role="listitem" class="item">Stories</div>
     </div>
+
   )
 }
 

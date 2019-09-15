@@ -1,10 +1,11 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom'
 import Navigation from './Navigation'
 
 function App() {
   return (
     <div className="App">
-    <Navigation />
+      <Route path="/" component={Navigation} />
     </div>
   );
 }
