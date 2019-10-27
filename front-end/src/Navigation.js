@@ -5,7 +5,7 @@ function Navigation(props){
   return(
     <div role="list" class="ui list">
       <div role="listitem" class="item">Home</div>
-      <div role="listitem" class="item">Stories</div>
+      <Link to="/content" role="listitem" class="item">Stories</Link>
     </div>
 
   )
