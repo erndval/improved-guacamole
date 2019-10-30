@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 function Navigation(props){
   return(
-    <div class="ui left vertical menu sidebar">
-      <div role="listitem" class="item">Home</div>
-      <Link to="/content" class="item"><div>Stories</div></Link>
-      <Link to="/blog" role="listitem" class="item"><div>Blog</div></Link>
+    <div class="ui sidebar inverted vertical menu">
+      <a class="item">Home</a>
+      <a class="item">Stories</a>
+      <Link to="/blog" class="item">Blog</Link>
     </div>
 
   )
