@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Navigation(props){
   return(
-    <div class="ui sidebar inverted vertical menu">
-      <a class="item">Home</a>
-      <a class="item">Stories</a>
+    <div class="sidenav">
+      <Link to="/" class="item">Home</Link>
+      <Link to="/content" class="item">Stories</Link>
       <Link to="/blog" class="item">Blog</Link>
     </div>
-
   )
 }
 
