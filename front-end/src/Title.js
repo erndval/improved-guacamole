@@ -2,8 +2,8 @@ import React from 'react';
 
 function Title(props){
   return(
-    <div>
-    Title
+    <div class="title">
+    aaaaaaaaaaaaaaaaaaaaaaa
     </div>
   )
 }

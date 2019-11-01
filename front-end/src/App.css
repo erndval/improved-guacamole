@@ -28,6 +28,12 @@
   padding: 0px 10px;
 }
 
+.title {
+  font-size: 72px;
+  text-align: center;
+  padding-top: 30px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
