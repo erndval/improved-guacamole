@@ -7,6 +7,7 @@ function Navigation(props){
       <Link to="/" class="item">Home</Link>
       <Link to="/content" class="item">Stories</Link>
       <Link to="/blog" class="item">Blog</Link>
+      <Link to="/projects" class="item">Projects</Link>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react';
 function Title(props){
   return(
     <div class="title">
-    aaaaaaaaaaaaaaaaaaaaaaa
+    Working Title
     </div>
   )
 }
